@@ -25,7 +25,8 @@ export const todoSlice = createSlice({
 
 
 export const { addTodo, removeTodo } = todoSlice.actions;
-// here todoSlice.actions is refering to reducers
+// here todoSlice.actions is refering to reducers functions/functionalitites
 
 export default todoSlice.reducer;
-// here reducer is refering to reducers
+// here reducer is refering to reducers object that has action functions
+// this export will be used in store
